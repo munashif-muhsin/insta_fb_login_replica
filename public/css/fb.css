@@ -1,0 +1,114 @@
+body, button, input, textarea {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+body{
+    background-color: #eceff5;
+}
+
+.fb-header{
+    background: #3b5998;
+    box-sizing: border-box;
+    height: 44px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.fb-logo {
+    background-image: url('../facebook_logo.png');
+    background-size: 103px 389px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 102px;
+    height: 21px;
+    background-position: 0 0;
+    margin: auto;
+}
+
+.insta-logo {
+    padding: 38px 60px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.insta-logo > img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.insta-logo > p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #90949c;
+    text-align: center;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+
+form {
+    padding: 0px 15px;
+    width: 100%;
+    
+}
+
+form .input-group {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+form .input-group:first-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 0px;;
+}
+
+form .input-group > input {
+    padding: 10px;
+    width: 100%;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+
+form .fb-login-btn {
+    background-color: #3578e5;
+    margin: 1px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 38px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+
+.bottom-links {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Roboto, 'Droid Sans', Helvetica, sans-serif;
+}
+
+.bottom-links a{
+    color: #576b95;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottom-links span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #90949c;
+}
+
